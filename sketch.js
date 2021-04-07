@@ -89,10 +89,10 @@ function setup() {
     imageMode(CENTER);
     image(img,polygon.position.x, polygon.position.y, 20 + 20, 20 + 20);
 
-    //if (gameState === PLAY) {
-      //mouseDragged();
+    if (gameState === PLAY) {
+      mouseDragged();
       //keyPressed();
-    //}
+    }
 
     //consoles
     
