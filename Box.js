@@ -3,8 +3,7 @@ class Box {
 
         var options = {
             restitution:0.4,
-            friction:0.5,
-            density:0.2
+            friction:0.0
         }
 
         this.pix = Bodies.rectangle(x,y,width,height,options);
@@ -17,14 +16,21 @@ class Box {
 
     display(){
 
-        if (this.pix.speed < 3) {
+        if (this.pix.speed < 5) {
             //super.display(); 
+            var angle  = this.pix.angle;
+            push()
+        translate(this.pix.position.x, this.pix.position.y);
+          rotate(angle);
+
+          rectMode(CENTER);
+              rect(0, 0, this.width, this.height);
+          pop()
           }else {
               World.remove(world, this.pix);
               push();
               this.visiblity = this.visiblity - 5;
               tint(255, this.visiblity);
-              image(this.image, this.pix.position.x, this.pix.position.y, 50, 50);
               pop();
           }
 
