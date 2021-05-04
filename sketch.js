@@ -50,28 +50,28 @@ function setup() {
     //console.log(A)
     sling = new Sling(this.polygon,{x:100, y:200})
     //blocks
-    Block1 = new Box(600,260,30,30);
-    Block2 = new Box(570,260,30,30);
-    Block3 = new Box(540,260,30,30);
-    Block4 = new Box(630,260,30,30);
-    Block5 = new Box(660,260,30,30);
-    Block6 = new Box(585,220,30,30);
-    Block7 = new Box(555,220,30,30);
-    Block8 = new Box(615,220,30,30);
-    Block9 = new Box(645,220,30,30);
-    Block10 = new Box(600,170,30,30);
-    Block11 = new Box(570,180,30,30);
-    Block12 = new Box(630,180,30,30);
-    Block13 = new Box(600,140,30,30);
-    Block14 = new Box(900,170,30,30);
+    Block1 = new Box(600,260,30,40);
+    Block2 = new Box(570,260,30,40);
+    Block3 = new Box(540,260,30,40);
+    Block4 = new Box(630,260,30,40);
+    Block5 = new Box(660,260,30,40);
+    Block6 = new Box(585,220,30,40);
+    Block7 = new Box(555,220,30,40);
+    Block8 = new Box(615,220,30,40);
+    Block9 = new Box(645,220,30,40);
+    Block10 = new Box(600,170,30,40);
+    Block11 = new Box(570,180,30,40);
+    Block12 = new Box(630,180,30,40);
+    Block13 = new Box(600,140,30,40);
+    Block14 = new Box(900,170,30,40);
     Block15 = new Box(930,170,30,30);
-    Block16 = new Box(870,170,30,30);
-    Block17 = new Box(840,170,30,30);
-    Block18 = new Box(960,170,30,30);
-    Block19 = new Box(900,140,30,30);
-    Block20 = new Box(930,140,30,30);
-    Block21 = new Box(870,140,30,30);
-    Block22 = new Box(900,110,30,30);
+    Block16 = new Box(870,170,30,40);
+    Block17 = new Box(840,170,30,40);
+    Block18 = new Box(960,170,30,40);
+    Block19 = new Box(900,140,30,40);
+    Block20 = new Box(930,140,30,40);
+    Block21 = new Box(870,140,30,40);
+    Block22 = new Box(900,110,30,40);
     //Sling
     //sling = new Sling(A.body,{x:100, y:200})
   //Grounds
