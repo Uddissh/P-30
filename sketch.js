@@ -62,9 +62,9 @@ function setup() {
     Block10 = new Box(600,170,30,40);
     Block11 = new Box(570,180,30,40);
     Block12 = new Box(630,180,30,40);
-    Block13 = new Box(600,140,30,40);
+    Block13 = new Box(600,135,30,40);
     Block14 = new Box(900,170,30,40);
-    Block15 = new Box(930,170,30,30);
+    Block15 = new Box(930,170,30,40);
     Block16 = new Box(870,170,30,40);
     Block17 = new Box(840,170,30,40);
     Block18 = new Box(960,170,30,40);
@@ -127,7 +127,8 @@ function setup() {
   }
 
   function keyPressed(){
+    console.log("attach the polygone")
      if(keyCode === 32){ 
-       slingShot.attach(this.polygon); 
+       sling.attach(this.polygon); 
       } 
   }
